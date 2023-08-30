@@ -1,4 +1,4 @@
-const readlineSync = require('readline-sync')
+const input = require('readline-sync')
 // 1.PROBLEMA: Yoda el maestro jedi, necesita enseñar a sus aprendices
 // Padawan a calcular la distancia a la que cualquiera de los planetas de la
 // ruta N-14 pertenecientes a la ruta comercial de la federación
@@ -10,7 +10,7 @@ const readlineSync = require('readline-sync')
 
 
 //suponiendo que las Coordenadas de Naboo es 32/52
-const UA = readlineSync.question('Hola, dame las coordenadas (X/y) del planeta UA: ');
+const UA = input.question('Hola, dame las coordenadas (X/y) del planeta UA: ');
 
 // console.log('x: '+Naboo.split('/')[0]);
 // console.log('y: '+Naboo.split('/')[1]);

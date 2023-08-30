@@ -1,4 +1,4 @@
-const readlineSync = require('readline-sync')
+const input = require('readline-sync')
 // 2.PROBLEMA: Obi-Wan Kenobi, necesita clasificar diferentes códigos de
 // acceso a las naves de guerra los cuáles reposan en la base de datos
 // central, para ello debe programar una función que permita recibir la
@@ -10,7 +10,7 @@ const readlineSync = require('readline-sync')
 // • ARQ2557: Finn
 
 
-const codigoNave = readlineSync.question('Ingresa la palabra clave de la nave: ');
+const codigoNave = input.question('Ingresa la palabra clave de la nave: ');
 
 
 
