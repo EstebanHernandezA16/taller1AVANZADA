@@ -6,3 +6,13 @@ const input = require('readline-sync')
 // calcule e imprima el salario mensual de un vendedor dado;
 
 
+const salario_base = 3500000
+
+const calcularSalario = () =>{
+    const cantidadVentas = input.questionInt('Ingrese la cantidad de ventas que ha logrado este mes: ')
+    const comision = cantidadVentas*1500000
+    return  (comision*salario_base)*0.05
+}
+
+
+console.log(`Su salario va a ser de ${calcularSalario()} este mes`);
